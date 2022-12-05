@@ -1,0 +1,15 @@
+2022-12-05T12:52:16,180  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,187  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,188  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,191  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,194  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,195  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,196  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,410  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,411  INFO [main] LoggerManager:17 - ------- Selected environment ------- qa
+2022-12-05T12:52:16,956  INFO [main] WebDriverManager:1228 - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-05T12:52:16,984  INFO [main] WebDriverManager:1283 - Exporting webdriver.chrome.driver as C:\Users\Admin\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-05T12:54:16,345  INFO [main] LoggerManager:17 - Verifying Resident Contact Logs Page Title
+2022-12-05T12:54:16,346  INFO [main] LoggerManager:17 - ======== into verifyResidentContactLogsPage() ========
+2022-12-05T12:54:16,623  INFO [main] LoggerManager:17 - ======== Username: abhay.ranade
+2022-12-05T12:54:16,889  INFO [main] LoggerManager:17 - ======== Password: YellowFrame62#

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Cira Management">
+<listeners>
+		<listener class-name="ciraconnect.testlisteners.TestListener" />
+	</listeners>
+	<test thread-count="1" name="Login Test Cases" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.LoginPageTest">
+			</class>
+		</classes>
+	</test>
+	<test thread-count="1" name="HomePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.HomePageTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test thread-count="1" name="InternalTasksPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.InternalTasksPageTest">
+		</class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="ProjectsTasksPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.ProjectsTasksPageTest">
+		</class>
+		</classes>
+	</test>
+	
+	
+	<test thread-count="1" name="PreferencePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.PreferencesPageTest"></class>
+		</classes>
+	</test>
+	
+	<test thread-count="1" name="WorkOrdersPageTest" enabled="false"> 
+	
+	<classes>
+			<class name="ciraconnect.testcases.WorkOrdersPageTest"></class>
+		</classes>
+	</test>
+<!-- <test thread-count="1" name="PropertyConveyanceWorkQueuePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.PropertyConveyanceWorkQueuePageTest"></class>
+		</classes>
+	</test>
+ -->	
+	
+	
+	<test thread-count="1" name="FulfillmentQueuePageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.FulfillmentQueuePageTest"></class>
+		</classes>
+	</test>
+	
+	
+<!-- 	<test thread-count="1" name="BillingItemManagementPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.BillingItemManagementPageTest"></class>
+		</classes>
+	</test>
+ -->
+ 
+ 	<test thread-count="1" name="BoardApprovalsPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.BoardApprovalsPageTest"></class>
+		</classes>
+	</test>
+	
+	
+		<test thread-count="1" name="ClosingRequestsPageTest" enabled="false">
+		<classes>
+			<class name="ciraconnect.testcases.ClosingRequestsPageTest"></class>
+		</classes>
+	</test>
+
+
+		<test thread-count="1" name="ResidentContactLogsPageTest" enabled="true">
+		<classes>
+			<class name="ciraconnect.testcases.ResidentContactLogsPageTest"></class>
+		</classes>
+	</test>
+		
+ 
+ 
+ 
+ 
+</suite> 
+
+
+ 
